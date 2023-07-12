@@ -1,0 +1,38 @@
+Arxiv paper summarization
+
+
+Financial summarization
+
+	- Top Articles
+	- General Sentiment
+	- Major movements by sector
+
+
+Social Media Integration
+
+	- Twitter
+		Notifications
+		Top of feed
+	- FB
+		Notifications
+	- Insta
+		Notifications
+
+
+Compile & run last work project
+	
+	- Report Error Code
+	- 
+
+Weather 
+	
+	- Temperature Hi/Low
+	- Condition
+
+Schedule/day segmentation
+
+	- Wake Up /Bed time
+	- First Calendar event
+	- Highlighted events
+	
+ 
