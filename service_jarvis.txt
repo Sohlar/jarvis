@@ -35,4 +35,8 @@ Schedule/day segmentation
 	- First Calendar event
 	- Highlighted events
 	
- 
+VoiceToText
+
+	- Automatic transcribe call to summary as email etc.
+	- Subtitles addon from voice e.g. youtube to text
+	- 

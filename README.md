@@ -9,17 +9,17 @@ The main function of the code is to listen for audio from the system's microphon
 ## Requirements
 
 - Python 3.7 or higher
-- `pyaudio`
-- `numpy`
-- `threading`
-- `queue`
-- `wave`
-- `transformers` library (HuggingFace)
 
 You can install the necessary dependencies with pip:
 
 ```bash
-pip install pyaudio numpy wave transformers
+pip install requirements.txt
+```
+
+Updating requirements using pipreqs:
+```bash
+pip pipreqs PROJECT_DIR
+python -m pipreqs.pipreqs PROJECT_DIR
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ python main.py
 Replace <repository_link> and <repository_name> with the appropriate details.
 
 ## Customization
-Activation Phrase: You can customize the activation phrase by changing the string in the condition if "Big cock" in transcription:. Replace "Big cock" with your own activation phrase.
+Activation Phrase: You can customize the activation phrase by changing the string in the conditio in transcription.
 Audio Recording Duration: You can change the recording duration by modifying the RECORD_SECONDS constant.
 Buffer Size: The buffer size can be adjusted by changing the BUFFER_SIZE constant.
 ASR Model: You can change the ASR (Automatic Speech Recognition) model used by the transformers pipeline by modifying the string in model="facebook/wav2vec2-base-960h". Replace it with the model of your choice from the Hugging Face Model Hub.
